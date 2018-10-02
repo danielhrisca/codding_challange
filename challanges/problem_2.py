@@ -40,9 +40,6 @@ def problem_2_without_division(numbers):
             product *= val
         result.append(product)
 
-    for val in numbers:
-        product *= val
-
     return result
 
 
